@@ -1,5 +1,12 @@
 <?php
 
-echo "<h1>The Neko Project</h1>";
+$mg = '<ul>';
+for($i=-17827;$i<=14588;$i+=7) {
+    if($i%24==0)
+        $mg .= '<li>' .$i. '</li>';
+}
+$mg .= '</ul>';
+
+echo $mg;
 
 ?>
